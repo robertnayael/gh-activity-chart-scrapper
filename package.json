@@ -1,0 +1,27 @@
+{
+  "name": "gh-activity-chart-scrapper",
+  "author": "Robert Gulewicz <robert@gulewi.cz>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "GitHub activity chart scrapper",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^10.12.18",
+    "@types/serverless": "^1.72.5",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "serverless": "^2.11.0",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
